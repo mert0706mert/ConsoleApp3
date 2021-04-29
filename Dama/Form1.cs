@@ -19,9 +19,14 @@ namespace Dama
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Button[,] buttons = new Button[8,8];
-            int top=25;
-            int left=180;
+            Dama();
+        }
+
+        private void Dama()
+        {
+            Button[,] buttons = new Button[8, 8];
+            int top = 25;
+            int left = 180;
             for (int i = 0; i <= buttons.GetUpperBound(0); i++)
             {
                 for (int j = 0; j <= buttons.GetUpperBound(1); j++)
@@ -32,11 +37,11 @@ namespace Dama
                     buttons[i, j].Left = left;
                     buttons[i, j].Top = top;
                     left += 47;
-                    if((i+j)%2==0)
+                    if ((i + j) % 2 == 0)
                     {
                         buttons[i, j].BackColor = Color.Red;
                     }
-                    this.Controls.Add(buttons[i,j]);
+                    this.Controls.Add(buttons[i, j]);
                 }
                 top += 47;
                 left = 180;
