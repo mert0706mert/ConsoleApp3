@@ -6,6 +6,8 @@ namespace App
     {
         static void Main(string[] args)
         {
+            Mert mert = new Mert();
+            mert.FirstName = "Mert";
             string a = "Sokaktan eve gelirken, sokağın ortasında sıkıştım.";
             var result =a.Length;
             var se = a.Clone();
@@ -22,7 +24,8 @@ namespace App
             var e4 = a.Replace("ı","i");
             var e1 = e4.Substring(41,8);
             var e5 = e4.Remove(0,41);
-
+            
+            Console.WriteLine(mert.FirstName);
             Console.WriteLine(a);
             Console.WriteLine(result);
             Console.WriteLine(se);
@@ -39,6 +42,10 @@ namespace App
             Console.WriteLine(e3);
             Console.WriteLine(e4);
             Console.WriteLine(e5);
+        }
+        class Mert
+        {
+            public string FirstName;
         }
     }
 }

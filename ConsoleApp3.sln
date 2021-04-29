@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A", "A\A.csproj", "{A0B814D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{E1111AFD-3E1F-46CC-BF3B-45AA54DF4891}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dama", "Dama\Dama.csproj", "{3D020DDF-3D27-4CE9-B41B-7181FADC64DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E1111AFD-3E1F-46CC-BF3B-45AA54DF4891}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1111AFD-3E1F-46CC-BF3B-45AA54DF4891}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1111AFD-3E1F-46CC-BF3B-45AA54DF4891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D020DDF-3D27-4CE9-B41B-7181FADC64DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D020DDF-3D27-4CE9-B41B-7181FADC64DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D020DDF-3D27-4CE9-B41B-7181FADC64DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D020DDF-3D27-4CE9-B41B-7181FADC64DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
